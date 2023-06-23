@@ -50,12 +50,25 @@
   background-color: #F5F5F5;
 }
 
+/* ex 5 */
+
 .ex-5-square {
   margin: 20px;
   width: 60px;
   height: 60px;
   background: red;
+  transition: transform 1s;
 }
+
+.ex-5-square:hover{
+  transform: scale(2);
+}
+
+.ex-5-square:active{
+  transform: scale(.5);
+}
+
+
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {

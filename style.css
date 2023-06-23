@@ -128,6 +128,31 @@
 .ex-11-icon {
   font-size: 60px;
 }
+
+/* ex 11 */
+
+.ex-11-icon:hover{
+  animation: half-spin 2s linear 1;
+}
+
+@keyframes half-spin{
+  0%{
+    transform: rotate(0turn);
+  }
+  40%{
+    transform: rotate(.5turn);
+  }
+  80%{
+    transform: rotate(1turn);
+  }
+  90%{
+    transform: rotate(.5turn);
+  }
+  100%{
+    transform: rotate(0turn);
+  }
+}
+
 .ex-12-button,
 .ex-13-button {
   position: relative;

@@ -88,6 +88,15 @@
   filter: grayscale(.5) sepia(.6);
 }
 
+/* ex 8 */
+
+.ex-8-img:hover{
+  transition-property: all;
+  transition-duration: 2s;
+  border-radius: 20px;
+  filter: sepia(.6) grayscale(.4);
+}
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;

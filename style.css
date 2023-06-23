@@ -101,6 +101,17 @@
   margin: 50px 100px;
   width: 400px;
 }
+
+/* ex 9 */
+
+.ex-9-img:hover{
+  transition-property: all;
+  transition-duration: 2s;
+  border-radius: 20px;
+  filter: sepia(.6) grayscale(.4);
+  transform: scale(1.5);
+}
+
 .ex-10-icon {
   font-size: 60px;
 }
